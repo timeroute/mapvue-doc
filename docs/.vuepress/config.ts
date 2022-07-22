@@ -1,17 +1,16 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
-import { localTheme } from "./theme";
 import { navbarEn, navbarZh, sidebarEn, sidebarZh } from "./configs";
 
 export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "MapboxVue",
+      title: "MapVue",
       description: "A well-packaged MapboxGL component library",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "MapboxVue",
+      title: "MapVue",
       description: "一个封装比较全面的 MapboxGL 组件库",
     },
   },

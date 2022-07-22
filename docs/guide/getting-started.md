@@ -13,15 +13,15 @@
 ## Installation
 
 ```shell
-pnpm add mapbox-vue
+pnpm add mapvue
 ```
 
 ## Import
 
 ```ts
 import { createApp } from "vue";
-import MapVue from "mapbox-vue";
-import "mapbox-vue/dist/mapbox-vue.css";
+import MapVue from "mapvue";
+import "mapvue/dist/mapvue.css";
 import App from "./App.vue";
 
 createApp(App).use(MapVue).mount("#app");
