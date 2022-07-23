@@ -2,6 +2,7 @@ import { defineUserConfig, defaultTheme } from "vuepress";
 import { navbarEn, navbarZh, sidebarEn, sidebarZh } from "./configs";
 
 export default defineUserConfig({
+  base: "/",
   locales: {
     "/": {
       lang: "en-US",
