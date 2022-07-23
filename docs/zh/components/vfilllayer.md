@@ -14,11 +14,15 @@
 />
 ```
 
-## 初始化地图
+## 例子
 
-<iframe src="https://codesandbox.io/embed/mapvue-vmap-5d689r?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
+### 初始化地图
+
+加载一个 geojson 数据来渲染 `v-fill-layer` 组件
+
+<iframe src="https://codesandbox.io/embed/vfilllayer-wiv9l7?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="mapvue/vmap"
+     title="vfilllayer"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
@@ -34,3 +38,5 @@
 | minzoom | 最小缩放  |
 | maxzoom | 最大缩放  |
 | filter  | 过滤规则  |
+
+想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#fill)
