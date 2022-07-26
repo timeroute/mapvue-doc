@@ -1,4 +1,5 @@
 import { defineUserConfig, defaultTheme } from "vuepress";
+import { googleAnalyticsPlugin } from "@vuepress/plugin-google-analytics";
 import { navbarEn, navbarZh, sidebarEn, sidebarZh } from "./configs";
 
 export default defineUserConfig({
@@ -44,4 +45,9 @@ export default defineUserConfig({
       },
     },
   }),
+  plugins: [
+    googleAnalyticsPlugin({
+      id: "G-LC8K6989S9",
+    }),
+  ],
 });
