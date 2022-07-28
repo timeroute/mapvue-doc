@@ -3,7 +3,7 @@
 ## 依赖环境
 
 - [Node.js v14+](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/) (Optional)
+- [Yarn](https://yarnpkg.com/) 或者 [pnpm](https://pnpm.io/) (可选)
 
 ::: tip
 

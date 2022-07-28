@@ -13,6 +13,13 @@
 ## Installation
 
 ```shell
+# use npm
+npm install mapvue
+
+# use yarn
+yarn add mapvue
+
+# use pnpm
 pnpm add mapvue
 ```
 
