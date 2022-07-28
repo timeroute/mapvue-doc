@@ -1,5 +1,4 @@
 import type { NavbarConfig } from "vuepress";
-import { version } from "../meta";
 
 export const navbarZh: NavbarConfig = [
   {
@@ -9,5 +8,9 @@ export const navbarZh: NavbarConfig = [
   {
     text: "组件",
     link: "/zh/components/",
+  },
+  {
+    text: "Github",
+    link: "https://github.com/timeroute/mapvue",
   },
 ];

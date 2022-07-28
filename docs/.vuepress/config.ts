@@ -8,12 +8,12 @@ export default defineUserConfig({
     "/": {
       lang: "en-US",
       title: "MapVue",
-      description: "A well-packaged MapboxGL component library",
+      description: "A well-packaged MapboxGL component library for Vue3",
     },
     "/zh/": {
       lang: "zh-CN",
       title: "MapVue",
-      description: "一个封装比较全面的 MapboxGL 组件库",
+      description: "一个封装比较全面的为 Vue3 打造的 MapboxGL 组件库",
     },
   },
   theme: defaultTheme({

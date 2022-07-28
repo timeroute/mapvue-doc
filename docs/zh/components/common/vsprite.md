@@ -1,0 +1,26 @@
+# VSprite
+
+`Sprite` 控件。
+
+```
+<v-sprite
+  url="http://image-url"
+  name="icon-name"
+/>
+```
+
+## 初始化地图
+
+<iframe src="https://codesandbox.io/embed/mapvue-vmap-5d689r?fontsize=14&hidescale=1&module=%2Fsrc%2FApp.vue&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="mapvue/vmap"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+
+## property
+
+| property | required | type             | description        |
+| -------- | -------- | ---------------- | ------------------ |
+| url      | 是       | string ImageData | 图标地址或图标数据 |
+| name     | 是       | string           | 图标名称           |

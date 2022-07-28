@@ -10,8 +10,11 @@ actions:
     link: /guide/
     type: secondary
 features:
-  - title: Completely Wrapper
-    details: A relative complete wrapper for MapboxGL
+  - title: Complete
+    details: Contains almost all classes that MapboxGL needs to use.
+  - title: Easy
+    details: Very easy to get started, follow the syntax of Vue.
   - title: Performant
-    details: High performance to use map
+    details: Efficient development without sacrificing performance.
+footer: MIT Licensed | Copyright © 2022-present TimeRoute
 ---

@@ -25,12 +25,12 @@
 
 ## 属性
 
-| 属性    | 说明      |
-| ------- | --------- |
-| id      | 图层 ID   |
-| source  | 数据源 ID |
-| paint   | 绘制参数  |
-| layout  | 布局参数  |
-| minzoom | 最小缩放  |
-| maxzoom | 最大缩放  |
-| filter  | 过滤规则  |
+| 属性    | description |
+| ------- | ----------- |
+| id      | 图层 ID     |
+| source  | 数据源 ID   |
+| paint   | 绘制参数    |
+| layout  | 布局参数    |
+| minzoom | 最小缩放    |
+| maxzoom | 最大缩放    |
+| filter  | 过滤规则    |
