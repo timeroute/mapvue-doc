@@ -3,7 +3,7 @@
 `FillLayer` 图层组件。需要配合 `VGeoSource` 使用。
 
 ```
-<v-fill-layer
+<v-fillextrusion-layer
   id="fill-layer-id"
   source="source-id"
   sourceLayer="source-layer-id"

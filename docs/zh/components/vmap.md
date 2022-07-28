@@ -12,7 +12,7 @@
 
 ### 初始化地图
 
-初始化一个基础的地图并且监听 `loaded` 事件
+初始化一个基础的地图并且监听 `loaded` 事件，`loaded` 事件还原了 `map.on('load')` 的回调函数。
 
 <iframe src="https://codesandbox.io/embed/long-wood-mnqjgn?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
