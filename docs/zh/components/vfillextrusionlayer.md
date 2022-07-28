@@ -1,6 +1,6 @@
-# VFillLayer
+# VFillExtrusionLayer
 
-`FillLayer` 图层组件。需要配合 `VGeoSource` 使用。
+`FillExtrusionLayer` 图层组件。需要配合 `VGeoSource` 使用。
 
 ```
 <v-fillextrusion-layer
@@ -19,7 +19,7 @@
 
 ### 初始化地图
 
-加载一个 geojson 数据来渲染 `v-fill-layer` 组件
+加载一个 geojson 数据来渲染 `v-fillextrusion-layer` 组件
 
 <iframe src="https://codesandbox.io/embed/vfilllayer-wiv9l7?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -41,7 +41,7 @@
 | maxzoom     | 最大缩放                                                    |
 | filter      | 过滤规则                                                    |
 
-想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#fill)
+想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#fill-extrusion)
 
 ## 事件
 
@@ -51,4 +51,3 @@
 | mouseenter | 鼠标进入数据层事件   |
 | mousemove  | 鼠标在数据层移动事件 |
 | mouseleave | 鼠标离开数据层事件   |
-| mouseover  | 鼠标移动到数据层事件 |

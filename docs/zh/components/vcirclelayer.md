@@ -6,6 +6,7 @@
 <v-circle-layer
   id="circle-layer-id"
   source="source-url"
+  sourceLayer="source-layer-id"
   :paint="paint-object"
   :layout="layout-object"
   :minzoom="minzoom-value"
@@ -25,12 +26,24 @@
 
 ## 属性
 
-| 属性    | 说明      |
-| ------- | --------- |
-| id      | 图层 ID   |
-| source  | 数据源 ID |
-| paint   | 绘制参数  |
-| layout  | 布局参数  |
-| minzoom | 最小缩放  |
-| maxzoom | 最大缩放  |
-| filter  | 过滤规则  |
+| 属性        | 说明                                                        |
+| ----------- | ----------------------------------------------------------- |
+| id          | 图层 ID                                                     |
+| source      | 数据源 ID                                                   |
+| sourceLayer | [源层](https://docs.mapbox.com/help/glossary/source-layer/) |
+| paint       | 绘制参数                                                    |
+| layout      | 布局参数                                                    |
+| minzoom     | 最小缩放                                                    |
+| maxzoom     | 最大缩放                                                    |
+| filter      | 过滤规则                                                    |
+
+想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/style-spec/layers/#circle)
+
+## 事件
+
+| 事件       | 说明                 |
+| ---------- | -------------------- |
+| click      | 点击数据层事件       |
+| mouseenter | 鼠标进入数据层事件   |
+| mousemove  | 鼠标在数据层移动事件 |
+| mouseleave | 鼠标离开数据层事件   |

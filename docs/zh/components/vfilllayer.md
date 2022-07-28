@@ -51,4 +51,3 @@
 | mouseenter | 鼠标进入数据层事件   |
 | mousemove  | 鼠标在数据层移动事件 |
 | mouseleave | 鼠标离开数据层事件   |
-| mouseover  | 鼠标移动到数据层事件 |
