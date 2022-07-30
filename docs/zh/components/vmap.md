@@ -14,9 +14,9 @@
 
 初始化一个基础的地图并且监听 `loaded` 事件，`loaded` 事件还原了 `map.on('load')` 的回调函数。
 
-<iframe src="https://codesandbox.io/embed/long-wood-mnqjgn?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
+<iframe src="https://codesandbox.io/embed/vmap-examples-mnqjgn?fontsize=14&hidenavigation=1&initialpath=%2Fvmap%2Fbasic&module=%2Fsrc%2Fviews%2Fvmap%2FBasicMap.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="vmap"
+     title="vmap examples"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
@@ -25,9 +25,9 @@
 
 通过改变 `v-map` 组件的 `zoom` 或者 `center` 属性来让地图缩放或者飞行
 
-<iframe src="https://codesandbox.io/embed/vmap-with-interction-2bqlvs?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
+<iframe src="https://codesandbox.io/embed/vmap-examples-mnqjgn?fontsize=14&hidenavigation=1&initialpath=%2Fvmap%2Fflyzoom&module=%2Fsrc%2Fviews%2Fvmap%2FFlyZoom.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="vmap with interction"
+     title="vmap examples"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>

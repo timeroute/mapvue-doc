@@ -14,9 +14,9 @@ This is the top component, all components without `vmap` would be wrapperred in 
 
 simple init map and watch `loaded` event
 
-<iframe src="https://codesandbox.io/embed/long-wood-mnqjgn?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
+<iframe src="https://codesandbox.io/embed/vmap-examples-mnqjgn?fontsize=14&hidenavigation=1&initialpath=%2Fvmap%2Fbasic&module=%2Fsrc%2Fviews%2Fvmap%2FBasicMap.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="vmap"
+     title="vmap examples"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
@@ -25,9 +25,9 @@ simple init map and watch `loaded` event
 
 change the `zoom` or `center` prop of `v-map` component, make the map zooming or flying
 
-<iframe src="https://codesandbox.io/embed/vmap-with-interction-2bqlvs?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
+<iframe src="https://codesandbox.io/embed/vmap-examples-mnqjgn?fontsize=14&hidenavigation=1&initialpath=%2Fvmap%2Fflyzoom&module=%2Fsrc%2Fviews%2Fvmap%2FFlyZoom.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="vmap with interction"
+     title="vmap examples"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>

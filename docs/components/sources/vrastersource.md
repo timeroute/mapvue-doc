@@ -16,10 +16,10 @@
 
 Render `v-raster-source` component.
 
-<iframe src="https://codesandbox.io/embed/vfilllayer-wiv9l7?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.vue&theme=dark"
+<iframe src="https://codesandbox.io/embed/vmap-examples-mnqjgn?fontsize=14&hidenavigation=1&initialpath=%2Fvsource%2Fvrastersource%2Fbasic&module=%2Fsrc%2Fviews%2Fvsource%2Fvrastersource%2FBasic.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-     title="vfilllayer"
-     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; rasterlocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     title="vmap examples"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
