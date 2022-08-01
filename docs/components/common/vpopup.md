@@ -24,8 +24,8 @@
 
 | property | required | type     | description     |
 | -------- | -------- | -------- | --------------- |
-| visible  | false    | boolean  | visibility      |
-| center   | true     | number[] | Popup's lngLat  |
+| visible  | true     | boolean  | visibility      |
+| center   | false    | number[] | Popup's lngLat  |
 | options  | false    | object   | Popup's options |
 
 for more details you can access to mapbox website, [go to](https://docs.mapbox.com/mapbox-gl-js/api/markers/#popup-parameters)

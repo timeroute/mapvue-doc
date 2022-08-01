@@ -2,6 +2,10 @@
 
 This is the top component, all components without `vmap` would be wrapperred in it.
 
+Of course, the `v-map` component exposes a `map` variable, which is an instantiated `mapboxgl.Map` class. You can still use this variable outside the `v-map` component to manipulate the map.
+
+Or you can customize a component inside `v-map` and use `teleport` to point to the container which is outside the `v-map` component.
+
 ```
 <v-map>
   other mapvue components

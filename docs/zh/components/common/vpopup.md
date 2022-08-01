@@ -24,8 +24,8 @@
 
 | property | required | type     | description       |
 | -------- | -------- | -------- | ----------------- |
-| visible  | 否       | boolean  | 是否显示          |
-| center   | 是       | number[] | Popup 坐标        |
+| visible  | 是       | boolean  | 是否显示          |
+| center   | 否       | number[] | Popup 坐标        |
 | options  | 否       | object   | Popup 的 property |
 
 for more details you can access to mapbox website, [go to](https://docs.mapbox.com/mapbox-gl-js/api/markers/#popup-parameters)
