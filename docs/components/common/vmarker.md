@@ -1,6 +1,6 @@
 # VMarker
 
-`Marker` Class.
+`Marker` Control.
 
 ```
 <v-marker
@@ -9,7 +9,7 @@
 />
 ```
 
-## 加载 Marker
+## With Marker In Map
 
 <iframe src="https://codesandbox.io/embed/vmap-examples-mnqjgn?fontsize=14&hidenavigation=1&initialpath=%2Fvmarker%2Fbasic&module=%2Fsrc%2Fviews%2Fvmarker%2FBasic.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
@@ -20,18 +20,18 @@
 
 ## property
 
-| property | required | type     | description        |
-| -------- | -------- | -------- | ------------------ |
-| center   | 是       | number[] | Marker 坐标        |
-| options  | false    | object   | Marker 的 property |
+| property | required | type     | description      |
+| -------- | -------- | -------- | ---------------- |
+| center   | true     | number[] | Marker's lngLat  |
+| options  | false    | object   | Marker's options |
 
 for more details you can access to mapbox website, [go to](https://docs.mapbox.com/mapbox-gl-js/api/markers/#marker-parameters)
 
-## 事件
+## event
 
-| 事件       | description           |
-| ---------- | --------------------- |
-| click      | 点击 Popup 事件       |
-| mouseenter | 鼠标进入 Popup 事件   |
-| mousemove  | 鼠标在 Popup 移动事件 |
-| mouseleave | 鼠标离开 Popup 事件   |
+| event      | description              |
+| ---------- | ------------------------ |
+| click      | Popup `click` event      |
+| mouseenter | Popup `mouseenter` event |
+| mousemove  | Popup `mousemove` event  |
+| mouseleave | Popup `mouseleave` event |

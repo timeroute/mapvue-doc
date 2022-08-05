@@ -19,9 +19,9 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-## property
+## 属性
 
-| property       | required | type     | description                                                                              |
+| 属性       | 必选 | 类型     | 描述                       |
 | -------------- | -------- | -------- | ---------------------------------------------------------------------------------------- |
 | color          | 否       | string   | 地平线以下大气区域的颜色，默认 `#ffffff`                                                 |
 | high-color     | 否       | string   | 地平线以上大气区域的颜色，默认 `#245cdf`                                                 |
@@ -30,7 +30,7 @@
 | range          | 否       | number[] | 开始和结束距离范围，`-20~20`之间，默认 `[0.5,10]`                                        |
 | star-intensity | 否       | number   | 控制星光强度的值，`0~1`之间，默认 `["interpolate",["linear"],["zoom"],5,0.35,6,0]`       |
 
-for more details you can access to mapbox website, [go to](https://docs.mapbox.com/mapbox-gl-js/style-spec/fog/)
+想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/style-spec/fog/)
 
 ## 插槽
 

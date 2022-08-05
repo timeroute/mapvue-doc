@@ -22,16 +22,16 @@
 
 ## property
 
-| property | required | type     | description       |
+| 属性       | 必选 | 类型     | 描述                       |
 | -------- | -------- | -------- | ----------------- |
 | visible  | 是       | boolean  | 是否显示          |
 | center   | 否       | number[] | Popup 坐标        |
 | options  | 否       | object   | Popup 的 property |
 
-for more details you can access to mapbox website, [go to](https://docs.mapbox.com/mapbox-gl-js/api/markers/#popup-parameters)
+想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/api/markers/#popup-parameters)
 
 ## 插槽
 
-| 名称    | description |
+| 名称    | 描述 |
 | ------- | ----------- |
 | default | 默认        |

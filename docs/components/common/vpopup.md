@@ -32,6 +32,6 @@ for more details you can access to mapbox website, [go to](https://docs.mapbox.c
 
 ## Slot
 
-| 名称    | description |
+| name    | description |
 | ------- | ----------- |
 | default | default     |

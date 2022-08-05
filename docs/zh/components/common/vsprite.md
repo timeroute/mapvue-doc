@@ -20,7 +20,7 @@
 
 ## property
 
-| property | required | type             | description        |
+| 属性       | 必选 | 类型     | 描述                       |
 | -------- | -------- | ---------------- | ------------------ |
 | url      | 是       | string ImageData | 图标地址或图标数据 |
 | name     | 是       | string           | 图标名称           |
