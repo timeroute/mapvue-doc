@@ -24,7 +24,7 @@ With Chart In Marker
 
 Insert a Pie Chart instead by default icon.
 
-<iframe src="https://codesandbox.io/embed/vmap-examples-mnqjgn?fontsize=14&hidenavigation=1&initialpath=%2Fvmarker%2Fwithmarker&module=%2Fsrc%2Fviews%2Fvmarker%2FWithMarker.vue&theme=dark"
+<iframe src="https://codesandbox.io/embed/vmap-examples-mnqjgn?fontsize=14&hidenavigation=1&initialpath=%2Fvmarker%2Fwithchart&module=%2Fsrc%2Fviews%2Fvmarker%2FWithChart.vue&theme=dark"
      style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
      title="vmap examples"
      allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
