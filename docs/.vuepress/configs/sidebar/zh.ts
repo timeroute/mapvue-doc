@@ -20,6 +20,7 @@ export const sidebarZh: SidebarConfig = {
             "/zh/components/common/vpopup.md",
             "/zh/components/common/vfog.md",
             "/zh/components/common/vsprite.md",
+            "/zh/components/common/vfeaturestate.md",
           ],
         },
         {

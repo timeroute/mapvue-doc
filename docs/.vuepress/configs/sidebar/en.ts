@@ -20,6 +20,7 @@ export const sidebarEn: SidebarConfig = {
             "/components/common/vpopup.md",
             "/components/common/vfog.md",
             "/components/common/vsprite.md",
+            "/components/common/vfeaturestate.md",
           ],
         },
         {
