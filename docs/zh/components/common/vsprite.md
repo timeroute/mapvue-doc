@@ -18,7 +18,7 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-## property
+## 属性
 
 | 属性       | 必选 | 类型     | 描述                       |
 | -------- | -------- | ---------------- | ------------------ |

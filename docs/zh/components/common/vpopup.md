@@ -20,13 +20,13 @@
      sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
    ></iframe>
 
-## property
+## 属性
 
 | 属性       | 必选 | 类型     | 描述                       |
 | -------- | -------- | -------- | ----------------- |
 | visible  | 是       | boolean  | 是否显示          |
 | center   | 否       | number[] | Popup 坐标        |
-| options  | 否       | object   | Popup 的 property |
+| options  | 否       | object   | Popup 的 属性 |
 
 想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/api/markers/#popup-parameters)
 

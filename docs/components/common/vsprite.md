@@ -22,5 +22,5 @@
 
 | property | required | type             | description             |
 | -------- | -------- | ---------------- | ----------------------- |
-| url      | 是       | string ImageData | image url or image data |
-| name     | 是       | string           | icon name               |
+| url      | true       | string ImageData | image url or image data |
+| name     | true       | string           | icon name               |
