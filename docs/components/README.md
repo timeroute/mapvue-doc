@@ -12,6 +12,7 @@
 - [VPopup](./common/vpopup.md)
 - [VSprit](./common/vsprite.md)
 - [VFog](./common/vfog.md)
+- [VFeatureState](./common/vfeaturestate.md)
 
 ### Control Components
 

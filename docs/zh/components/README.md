@@ -12,6 +12,7 @@
 - [VPopup 弹窗](./common/vpopup.md)
 - [VSprit 图标图层](./common/vsprite.md)
 - [VFog 雾](./common/vfog.md)
+- [VFeatureState Feature状态](./common/vfeaturestate.md)
 
 ### 控件组件
 
