@@ -25,6 +25,19 @@ pnpm add mapvue
 
 ## Import
 
+### with vue-cli
+
+```ts
+import { createApp } from "vue";
+import MapVue from "mapvue";
+import "mapvue/dist/style.css";
+import App from "./App.vue";
+
+createApp(App).use(MapVue).mount("#app");
+```
+
+### with vite
+
 ```ts
 import { createApp } from "vue";
 import MapVue from "mapvue";

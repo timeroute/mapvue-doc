@@ -25,6 +25,19 @@ pnpm add mapvue
 
 ## 导入组件库
 
+### vue-cli 项目
+
+```ts
+import { createApp } from "vue";
+import MapVue from "mapvue";
+import "mapvue/dist/style.css";
+import App from "./App.vue";
+
+createApp(App).use(MapVue).mount("#app");
+```
+
+### vite 项目
+
 ```ts
 import { createApp } from "vue";
 import MapVue from "mapvue";
