@@ -69,10 +69,10 @@ Render `v-geo-source` component .
 | clusterProperties | false    | object                 | An object defining custom properties on the generated clusters if clustering is enabled, aggregating values from clustered points. |
 | clusterRadius     | false    | number                 | Radius of each cluster if clustering is enabled. Defaults to `50`                                                                  |
 | filter            | false    | expression             | An expression for filtering features prior to processing them for rendering.                                                       |
-| generatedId       | false    | boolean                | Whether to generate ids for the geojson features. Defaults to `false`                                                              |
+| generateId       | false    | boolean                | Whether to generate ids for the geojson features. Defaults to `false`                                                              |
 | lineMetrics       | false    | boolean                | Whether to calculate line distance metrics. Defaults to `false`                                                                    |
 | maxzoom           | false    | number                 | Maximum zoom level at which to create vector tiles (higher means greater detail at high zoom levels). Defaults to `18`             |
-| protomteId        | false    | PromoteIdSpecification | A property to use as a feature id (for feature state).                                                                             |
+| promoteId        | false    | PromoteIdSpecification | A property to use as a feature id (for feature state).                                                                             |
 | tolerance         | false    | number                 | Douglas-Peucker simplification tolerance (higher means simpler geometries and faster performance). Defaults to `0.375`             |
 
 for more details you can access to mapbox website, [go to](https://docs.mapbox.com/mapbox-gl-js/style-spec/sources/#geojson)

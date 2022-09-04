@@ -69,10 +69,10 @@
 | clusterProperties | 否   | object                 | 聚合属性                                |
 | clusterRadius     | 否   | number                 | 聚合半径，默认 `50`                     |
 | filter            | 否   | expression             | 过滤规则                                |
-| generatedId       | 否   | boolean                | 是否自动生成 `feature.id`，默认 `false` |
+| generateId       | 否   | boolean                | 是否自动生成 `feature.id`，默认 `false` |
 | lineMetrics       | 否   | boolean                | 是否计算线距离度量，默认 `false`        |
 | maxzoom           | 否   | number                 | 最大缩放，默认 `18`                     |
-| protomteId        | 否   | PromoteIdSpecification | 用作 feature id 的属性                  |
+| promoteId        | 否   | PromoteIdSpecification | 用作 feature id 的属性                  |
 | tolerance         | 否   | number                 | Douglas-Peucker 简化容差，默认 `0.375`  |
 
 想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/style-spec/sources/#geojson)
