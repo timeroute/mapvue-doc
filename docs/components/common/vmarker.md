@@ -35,7 +35,7 @@ Insert a Pie Chart instead by default icon.
 
 | property | required | type     | description      |
 | -------- | -------- | -------- | ---------------- |
-| center   | true     | number[] | Marker's lngLat  |
+| center   | true     | number[] | Marker's lngLat, using `v-model:center` for auto updating center.  |
 | options  | false    | object   | Marker's options |
 
 for more details you can access to mapbox website, [go to](https://docs.mapbox.com/mapbox-gl-js/api/markers/#marker-parameters)
@@ -44,7 +44,8 @@ for more details you can access to mapbox website, [go to](https://docs.mapbox.c
 
 | event      | description              |
 | ---------- | ------------------------ |
-| click      | Popup `click` event      |
-| mouseenter | Popup `mouseenter` event |
-| mousemove  | Popup `mousemove` event  |
-| mouseleave | Popup `mouseleave` event |
+| click      | Marker `click` event      |
+| mouseenter | Marker `mouseenter` event |
+| mousemove  | Marker `mousemove` event  |
+| mouseleave | Marker `mouseleave` event |
+| update:center | emit `update:center` event in using `v-model:center` prop. |

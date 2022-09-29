@@ -47,11 +47,17 @@ const chart = echarts.init(dom, null, {
 
 | property | required | type     | description     |
 | -------- | -------- | -------- | --------------- |
-| visible  | true     | boolean  | visibility      |
+| visible  | true     | boolean  | visibility, using `v-model:visible` for auto updating visible.      |
 | center   | false    | number[] | Popup's lngLat  |
 | options  | false    | object   | Popup's options |
 
 for more details you can access to mapbox website, [go to](https://docs.mapbox.com/mapbox-gl-js/api/markers/#popup-parameters)
+
+## event
+
+| event      | description              |
+| ---------- | --------------------- |
+| update:visible | emit `update:visible` event in using `v-model:visible` prop. |
 
 ## Slot
 

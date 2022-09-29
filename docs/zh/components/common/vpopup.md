@@ -47,11 +47,17 @@ const chart = echarts.init(dom, null, {
 
 | 属性       | 必选 | 类型     | 描述                       |
 | -------- | -------- | -------- | ----------------- |
-| visible  | 是       | boolean  | 是否显示          |
+| visible  | 是       | boolean  | 是否显示，使用 `v-model:visible` 属性可自动更新该变量          |
 | center   | 否       | number[] | Popup 坐标        |
 | options  | 否       | object   | Popup 的 属性 |
 
 想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/api/markers/#popup-parameters)
+
+## 事件
+
+| 事件       | 描述           |
+| ---------- | --------------------- |
+| update:visible | 使用 `v-model:visible` 属性后自动触发的事件   |
 
 ## 插槽
 

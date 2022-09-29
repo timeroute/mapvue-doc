@@ -35,7 +35,7 @@
 
 | 属性       | 必选 | 类型     | 描述                       |
 | -------- | -------- | -------- | ------------------ |
-| center   | 是       | number[] | Marker 坐标        |
+| center   | 是       | number[] | Marker 坐标，使用 `v-model:center` 属性可自动更新该变量         |
 | options  | 否    | object   | Marker 的 属性 |
 
 想要更多信息请访问 mapbox 官网, [查看](https://docs.mapbox.com/mapbox-gl-js/api/markers/#marker-parameters)
@@ -48,3 +48,4 @@
 | mouseenter | 鼠标进入 Popup 事件   |
 | mousemove  | 鼠标在 Popup 移动事件 |
 | mouseleave | 鼠标离开 Popup 事件   |
+| update:center | 使用 `v-model:center` 属性后自动触发的事件   |
