@@ -12,6 +12,10 @@
 
 ## 安装
 
+### 版本 < 0.3.0
+
+`0.3.0` 以下版本集成了 `mapbox-gl` 库
+
 ```shell
 # use npm
 npm install mapvue
@@ -23,7 +27,26 @@ yarn add mapvue
 pnpm add mapvue
 ```
 
+### 版本 >= 0.3.0
+
+`0.3.0` 版本开始去掉 `mapbox-gl` 库，可自由安装 `1.2` 版本以上的 `mapbox-gl` 库
+
+```shell
+# use npm
+npm install mapbox-gl mapvue
+
+# use yarn
+yarn add mapbox-gl mapvue
+
+# use pnpm
+pnpm add mapbox-gl mapvue
+```
+
 ## 导入组件库
+
+### 版本 < 0.3.0
+
+由于 `0.3.0` 以下版本集成了 `mapbox-gl` 库，因此引入 `mapvue` 的 `css` 文件即可。
 
 ### vue-cli 项目
 
@@ -42,6 +65,19 @@ createApp(App).use(MapVue).mount("#app");
 import { createApp } from "vue";
 import MapVue from "mapvue";
 import "mapvue/dist/mapvue.css";
+import App from "./App.vue";
+
+createApp(App).use(MapVue).mount("#app");
+```
+
+### 版本 >= 0.3.0
+
+由于 `0.3.0` 版本开始去掉了 `mapbox-gl` 库，因此直接引入 `mapbox-gl` 的 `css` 文件即可。
+
+```ts
+import { createApp } from "vue";
+import MapVue from "mapvue";
+import "mapbox-gl/dist/mapbox-gl.css";
 import App from "./App.vue";
 
 createApp(App).use(MapVue).mount("#app");
